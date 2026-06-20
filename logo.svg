@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1">
+  <title>Lumen — Notes</title>
+  <meta name="description" content="A fast, colourful place for every note, idea, and list. by Aryan.">
+  <meta name="theme-color" content="#6c5ce7">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="icon" type="image/png" href="/icons/favicon-32.png">
+  <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Lumen">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <div id="splash" class="splash">
+    <div class="splash-mark"><img src="/icons/icon-192.png" alt=""><b>Lumen</b></div>
+    <div class="splash-dots"><i></i><i></i><i></i></div>
+  </div>
+  <div id="app"></div>
+  <div class="toasts" id="toasts"></div>
+  <script type="module" src="/js/app.js"></script>
+</body>
+</html>
